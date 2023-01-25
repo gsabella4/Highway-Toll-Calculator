@@ -1,10 +1,6 @@
 public class Car implements Vehicle {
     private boolean hasTrailer;
 
-    public boolean isHasTrailer() {
-        return hasTrailer;
-    }
-
     public Car(boolean hasTrailer) {
         this.hasTrailer = hasTrailer;
     }
